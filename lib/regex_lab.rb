@@ -13,7 +13,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   puts text
-  puts text.match(/^[A-Z]\w*\.$/)
+  #puts text.match(/^[A-Z]\w*\.$/)
 end
 
 def valid_phone_number?(phone)
